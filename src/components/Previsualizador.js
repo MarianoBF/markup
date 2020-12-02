@@ -8,6 +8,8 @@ class Previsualizador extends React.Component {
     let texto = {__html: marked(this.props.codigo2) }
     return (
       <div id="preview">
+          <p className="titulo">Previsualizador</p>
+
                   <div dangerouslySetInnerHTML={texto}>
       </div>
       </div>

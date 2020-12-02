@@ -8,24 +8,27 @@ class App extends React.Component {
     super(props);
     this.state = { codigo: `
 
-valid markdown that represents at least one of each of the following elements: 
-#a header (H1 size), 
-##a sub header (H2 size), 
-a link[Google](www.google.com), 
-inline \`code\`, 
-    a code block, 
-    a code block,
-    a code block,
--a 
--list 
--item, 
->a blockquote, 
->a blockquote, 
->a blockquote, 
-an image, 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-**and bolded text**.
+Este editor permite escribir en markdown y que se renderice abajo. Por ejemplo:
+# Un título (H1)
+## Un subtítulo (H2)
+Un [enlace](http://www.google.com)    
+Un poco de \`<p>codigo codigo codigo</p>\` Inline     
 
+        Un bloque de código 
+        Un bloque de código 
+        Un bloque de código 
+
+- Unos
+- items 
+- en lista
+
+> Una blockquote 
+> Una blockquote 
+> Una blockquote
+
+Una imagen:  ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)    
+
+**O texto en negrita**.
     
     ` };
 }
@@ -40,6 +43,7 @@ onHandleChange(event) {
   return (
   <>
   <Editor codigo = {this.state.codigo} onHandleChange={this.onHandleChange.bind(this)}/>
+  <hr />
   <Previsualizador codigo2 = {this.state.codigo}/>
   </>
   );
