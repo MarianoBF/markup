@@ -3,7 +3,7 @@ body {
 }
 
 
-#editor {
+#container-editor {
   margin: 0 auto;
   border: 1px solid black;
   width: 50%
@@ -15,7 +15,7 @@ body {
   height: 30vh;
 }
 
-#preview {
+#container-preview {
   width: 80%;
   margin: 0 auto;
   border: 1px solid black;

@@ -5,7 +5,7 @@ class Editor extends React.Component {
 
     render () {
         return (
-    <div id="editor">
+    <div id="container-editor">
     <p className="titulo">Editor</p>
     <textarea id="editor" defaultValue={this.props.codigo} onChange={this.props.onHandleChange}></textarea>
     </div>
