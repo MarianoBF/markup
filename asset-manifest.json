@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/marianobf.github.io/markup/static/css/main.27a4c507.chunk.css",
-    "main.js": "/marianobf.github.io/markup/static/js/main.386b7466.chunk.js",
-    "main.js.map": "/marianobf.github.io/markup/static/js/main.386b7466.chunk.js.map",
+    "main.css": "/marianobf.github.io/markup/static/css/main.f43242f2.chunk.css",
+    "main.js": "/marianobf.github.io/markup/static/js/main.5d08f0f1.chunk.js",
+    "main.js.map": "/marianobf.github.io/markup/static/js/main.5d08f0f1.chunk.js.map",
     "runtime-main.js": "/marianobf.github.io/markup/static/js/runtime-main.71241765.js",
     "runtime-main.js.map": "/marianobf.github.io/markup/static/js/runtime-main.71241765.js.map",
     "static/js/2.96223d6d.chunk.js": "/marianobf.github.io/markup/static/js/2.96223d6d.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.847cb7e4.chunk.js": "/marianobf.github.io/markup/static/js/3.847cb7e4.chunk.js",
     "static/js/3.847cb7e4.chunk.js.map": "/marianobf.github.io/markup/static/js/3.847cb7e4.chunk.js.map",
     "index.html": "/marianobf.github.io/markup/index.html",
-    "static/css/main.27a4c507.chunk.css.map": "/marianobf.github.io/markup/static/css/main.27a4c507.chunk.css.map",
+    "static/css/main.f43242f2.chunk.css.map": "/marianobf.github.io/markup/static/css/main.f43242f2.chunk.css.map",
     "static/js/2.96223d6d.chunk.js.LICENSE.txt": "/marianobf.github.io/markup/static/js/2.96223d6d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.71241765.js",
     "static/js/2.96223d6d.chunk.js",
-    "static/css/main.27a4c507.chunk.css",
-    "static/js/main.386b7466.chunk.js"
+    "static/css/main.f43242f2.chunk.css",
+    "static/js/main.5d08f0f1.chunk.js"
   ]
 }
