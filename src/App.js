@@ -23,8 +23,8 @@ Un poco de \`<p>codigo codigo codigo</p>\` Inline
 - en lista
 
 > Una blockquote 
-> Una blockquote 
-> Una blockquote
+> blockquote 
+> blockquote
 
 Una imagen:  ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)    
 
