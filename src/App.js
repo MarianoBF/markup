@@ -7,8 +7,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = { codigo: `
-
-Este editor permite escribir en markdown y que se renderice abajo. Por ejemplo:
+Algunos ejemplos:
 # Un título (H1)
 ## Un subtítulo (H2)
 Un [enlace](http://www.google.com)    

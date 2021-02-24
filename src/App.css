@@ -5,20 +5,35 @@ body {
 
 #container-editor {
   margin: 0 auto;
-  border: 1px solid black;
-  width: 50%
+  border: 2px solid #91EECF;
+  width: 50%;
+  padding: 1%;
+  background: #CFEE91;
+}
+
+#referencia {
+  background: #90EE90;
+  max-width: 18%;
+  float: left;
+  margin-top: 12vh;
+  margin-left: 2.5%;
+  text-align: justify;
+  padding: 1%;
+  border: 2px solid #CFEE91;
 }
 
 #container-editor textarea {
   margin: 0 auto;
-  width: 95%;
+  width: 99%;
   height: 30vh;
 }
 
 #container-preview {
   width: 80%;
   margin: 0 auto;
-  border: 1px solid black;
+  border: 2px solid #91EECF;
+  padding: 1%;
+  background: #CFEE91;
 }
 
 img {
@@ -26,5 +41,9 @@ img {
 }
 
 .titulo {
-  border: 1px solid green;
+  border: 2px solid #CFEE91;
+  font-size: 1.2em;
+  font-weight: 600;
+  background: #91EECF;
+  text-align: center;
 }

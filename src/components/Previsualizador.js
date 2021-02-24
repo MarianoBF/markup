@@ -1,6 +1,6 @@
 import React from "react";
 import marked from "marked";
-
+import DOMPurify from "dompurify";
 
 
 
@@ -11,7 +11,8 @@ class Previsualizador extends React.Component {
   render () {
 
  
-    let texto = {__html: marked(this.props.codigo2, { breaks: true }) }
+    let pre_texto = marked(this.props.codigo2, { breaks: true })
+    let texto = {__html: DOMPurify.sanitize(pre_texto)}
     return (
       <div id="container-preview">
           <p className="titulo">Previsualizador</p>
